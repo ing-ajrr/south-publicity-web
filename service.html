@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<style>
+		.service {
+			width: 300px;
+			height: 500px;
+			border: 1px solid red;
+		}
+		.service:hover .back{
+			display:block;
+		}
+		.service:hover .front{
+			display:none;
+		}
+		.front {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+		.back {
+			display: none;
+		}
+	</style>
+	<body>
+		<div class="service">
+			<div class="front">
+				<h1>Este es el frente</h1>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum fuga
+					accusamus officia blanditiis in consectetur numquam iste fugit,
+					sapiente facilis libero ducimus cum. Facere assumenda nisi iure
+					eligendi, veniam ea?
+				</p>
+			</div>
+			<div class="back">
+				<img src="images/growth.png" alt="Probando" />
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,22 @@
+.main__know {
+	background-color: #1b4730;
+	padding-bottom: 30px;
+	color: var(--color-light);
+}
+.main__know .container > h2 {
+	text-align: center;
+}
+.main__know .content {
+	background-color: #1e3227;
+	padding: 15px;
+}
+
+.main__know .content > p {
+	text-align: justify;
+	color: #58b0bd;
+	margin: 0;
+}
+
+.main__know .content > a {
+	color: var(--color-light);
+}

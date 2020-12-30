@@ -1,0 +1,163 @@
+.main__service {
+	background-color: var(--color-primary-ligth);
+	text-align: center;
+}
+
+.main__service .module-name {
+	margin-top: -20px;
+	margin-bottom: 80px;
+}
+
+.my-card {
+	max-width: 250px;
+	height: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	padding: 20px;
+	box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.my-card:nth-of-type(1) {
+	background: rgba(181, 148, 35, 1);
+	background: -moz-linear-gradient(
+		top,
+		rgba(181, 148, 35, 1) 0%,
+		rgba(181, 148, 35, 1) 30%,
+		rgba(18, 119, 27, 1) 99%,
+		rgba(18, 119, 27, 1) 100%
+	);
+	background: -webkit-gradient(
+		left top,
+		left bottom,
+		color-stop(0%, rgba(181, 148, 35, 1)),
+		color-stop(30%, rgba(181, 148, 35, 1)),
+		color-stop(99%, rgba(18, 119, 27, 1)),
+		color-stop(100%, rgba(18, 119, 27, 1))
+	);
+	background: -webkit-linear-gradient(
+		top,
+		rgba(181, 148, 35, 1) 0%,
+		rgba(181, 148, 35, 1) 30%,
+		rgba(18, 119, 27, 1) 99%,
+		rgba(18, 119, 27, 1) 100%
+	);
+	background: -o-linear-gradient(
+		top,
+		rgba(181, 148, 35, 1) 0%,
+		rgba(181, 148, 35, 1) 30%,
+		rgba(18, 119, 27, 1) 99%,
+		rgba(18, 119, 27, 1) 100%
+	);
+	background: -ms-linear-gradient(
+		top,
+		rgba(181, 148, 35, 1) 0%,
+		rgba(181, 148, 35, 1) 30%,
+		rgba(18, 119, 27, 1) 99%,
+		rgba(18, 119, 27, 1) 100%
+	);
+	background: linear-gradient(
+		to bottom,
+		rgba(181, 148, 35, 1) 0%,
+		rgba(181, 148, 35, 1) 30%,
+		rgba(18, 119, 27, 1) 99%,
+		rgba(18, 119, 27, 1) 100%
+	);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b59423', endColorstr='#12771b', GradientType=0 );
+}
+.my-card:nth-of-type(2) {
+	background: rgba(7, 46, 123, 1);
+	background: -moz-linear-gradient(
+		top,
+		rgba(7, 46, 123, 1) 0%,
+		rgba(17, 121, 28, 1) 87%,
+		rgba(17, 121, 28, 1) 100%
+	);
+	background: -webkit-gradient(
+		left top,
+		left bottom,
+		color-stop(0%, rgba(7, 46, 123, 1)),
+		color-stop(87%, rgba(17, 121, 28, 1)),
+		color-stop(100%, rgba(17, 121, 28, 1))
+	);
+	background: -webkit-linear-gradient(
+		top,
+		rgba(7, 46, 123, 1) 0%,
+		rgba(17, 121, 28, 1) 87%,
+		rgba(17, 121, 28, 1) 100%
+	);
+	background: -o-linear-gradient(
+		top,
+		rgba(7, 46, 123, 1) 0%,
+		rgba(17, 121, 28, 1) 87%,
+		rgba(17, 121, 28, 1) 100%
+	);
+	background: -ms-linear-gradient(
+		top,
+		rgba(7, 46, 123, 1) 0%,
+		rgba(17, 121, 28, 1) 87%,
+		rgba(17, 121, 28, 1) 100%
+	);
+	background: linear-gradient(
+		to bottom,
+		rgba(7, 46, 123, 1) 0%,
+		rgba(17, 121, 28, 1) 87%,
+		rgba(17, 121, 28, 1) 100%
+	);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#072e7b', endColorstr='#11791c', GradientType=0 );
+}
+
+.my-card:nth-of-type(3) {
+	background: rgba(177, 206, 84, 1);
+	background: -moz-linear-gradient(
+		top,
+		rgba(177, 206, 84, 1) 0%,
+		rgba(17, 121, 28, 1) 87%,
+		rgba(17, 121, 28, 1) 100%
+	);
+	background: -webkit-gradient(
+		left top,
+		left bottom,
+		color-stop(0%, rgba(177, 206, 84, 1)),
+		color-stop(87%, rgba(17, 121, 28, 1)),
+		color-stop(100%, rgba(17, 121, 28, 1))
+	);
+	background: -webkit-linear-gradient(
+		top,
+		rgba(177, 206, 84, 1) 0%,
+		rgba(17, 121, 28, 1) 87%,
+		rgba(17, 121, 28, 1) 100%
+	);
+	background: -o-linear-gradient(
+		top,
+		rgba(177, 206, 84, 1) 0%,
+		rgba(17, 121, 28, 1) 87%,
+		rgba(17, 121, 28, 1) 100%
+	);
+	background: -ms-linear-gradient(
+		top,
+		rgba(177, 206, 84, 1) 0%,
+		rgba(17, 121, 28, 1) 87%,
+		rgba(17, 121, 28, 1) 100%
+	);
+	background: linear-gradient(
+		to bottom,
+		rgba(177, 206, 84, 1) 0%,
+		rgba(17, 121, 28, 1) 87%,
+		rgba(17, 121, 28, 1) 100%
+	);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b1ce54', endColorstr='#11791c', GradientType=0 );
+}
+.my-card > h3 {
+	font-size: 1.3rem;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+.my-card p {
+	text-align: justify;
+}
+
+.wave img {
+	width: 100%;
+	height: auto;
+}

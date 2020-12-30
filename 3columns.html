@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+ 	<head>
+ 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 		<meta charset="utf-8">
+ 		<title>Menu 3 Columnas</title>
+ 	</head>
+ 	<body>
+ 		<div class="container">
+ 			<div class="cara">
+ 				<div class="imagen">
+ 					<img src="https://d31u95r9ywbjex.cloudfront.net/sites/default/files/styles/width_320/public/iStock_000000450125XSmall.jpg?itok=Csfjd4ih">
+ 				</div>
+ 				<div class="contenido">
+ 					<h2>Texto 1</h2>
+ 					<p>Aqui iria el texto descriptivo del servicio uno</p>
+ 				</div>
+ 			</div>
+ 			<div class="cara">
+ 				<div class="imagen">
+ 					<img src="https://d31u95r9ywbjex.cloudfront.net/sites/default/files/styles/width_320/public/iStock_000000450125XSmall.jpg?itok=Csfjd4ih">
+ 				</div>
+ 				<div class="contenido">
+ 					<h2>Texto 2</h2>
+ 					<p>Aqui iria el texto descriptivo del servicio uno</p>
+ 				</div>
+ 			</div>
+ 			<div class="cara">
+ 				<div class="imagen">
+ 					<img src="https://d31u95r9ywbjex.cloudfront.net/sites/default/files/styles/width_320/public/iStock_000000450125XSmall.jpg?itok=Csfjd4ih">
+ 				</div>
+ 				<div class="contenido">
+ 					<h2>Texto 3</h2>
+ 					<p>Aqui iria el texto descriptivo del servicio uno</p>
+ 				</div>
+ 			</div>
+ 		</div>
+ 	</body>
+<style>
+	body{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background:#1D4C13;
+	}
+	.container{
+		position:relative;
+		width:1100px;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		flex-wrap: wrap;
+		padding:30px;
+
+	}
+	.container .cara{
+		position:relative;
+		max-width: 300px;
+		height: 215px;
+		background:#fff;
+		margin:30px 10px;
+		padding: 20px 15px;
+		display: flex;
+		flex-direction: column;
+		box-shadow: 0 5px 202px rgba(0,0,0,0.5);
+		transition: 0.3s ease-in-out;
+
+	}
+	.container .cara .imagen{
+		position: relative;
+		width: 260px;
+		height: 260px;
+		left: 20px;
+		z-index:1;
+		box-shadow: 0 5px 20px rga(0,0,0,0.2);
+
+	}
+	.container .cara .imagen img{
+		max-width: 100%;
+		border-radius: 4px;
+
+
+	}
+	.container .cara:hover{
+		height:420px;
+	}
+	.container .cara .contenido{
+		position: relative;
+		margin-top: -140px;
+		padding:10px 15px;
+		text-align: center;
+		color: #111;
+		opacity: 0;
+		transition: 0.3s ease-in-out;
+	}
+	.container .cara:hover .contenido{
+		visibility: visible;
+		opacity: 1;
+		margin-top: -40px;
+		transition-delay: 0.3s;
+	}
+</style>
+</html>

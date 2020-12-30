@@ -1,0 +1,27 @@
+.top {
+	display: none;
+	width: 100%;
+	height: 30px;
+	background-color: var(--color-primary);
+	font-size: var(--font-size-small);
+}
+
+.top__subscribed {
+	display: none;
+	margin-left: 20px;
+}
+
+.btn-primary {
+	background-color: var(--color-secundary);
+}
+
+.top .nav-link {
+	padding: 0.3rem 1rem;
+}
+@media screen and (min-width: 768px) {
+	.top {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}

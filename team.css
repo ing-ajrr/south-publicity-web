@@ -1,0 +1,46 @@
+.main__team {
+	background-color: #1af172;
+	color: var(--color-light);
+	text-align: center;
+}
+
+.team-details {
+	min-height: 300px;
+}
+.main__team .team-detail {
+	padding: 20px;
+	margin: auto 0;
+}
+
+.team-detail-img {
+	padding: 0 25%;
+	margin-bottom: 20px;
+}
+
+.team-detail-img img {
+	border: 6px solid #51aad0;
+}
+
+.team-detail-perfil {
+	color: var(--color-primary);
+	font-size: 1rem;
+	font-weight: 700;
+}
+
+.contact,
+.subscribed {
+	min-height: 400px;
+	display: flex;
+	align-items: center;
+}
+
+.contact .content,
+.subscribed .content {
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.contact .content h3,
+.subscribed .content h3 {
+	font-weight: 700;
+}

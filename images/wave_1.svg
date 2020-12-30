@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1920px"
+	 height="1817.637px" viewBox="0 0 1920 1817.637" enable-background="new 0 0 1920 1817.637" xml:space="preserve">
+<g id="Layer_1">
+	
+		<image overflow="visible" width="1051" height="4000" xlink:href="../Vistaprevia.jpg"  transform="matrix(1.8257 0 0 1.8257 -2009.8125 -303.4087)">
+	</image>
+</g>
+<g id="Wave_2">
+	<path fill="#22A0A8" d="M1.188,921.591c0,0,229.813-174,637.813-180S1275.3,467.906,1623.229,0H1920v1817.637H0L1.188,921.591z"/>
+</g>
+<g id="Wave_1">
+	<path fill="#16712B" d="M3923.6,1664.61v19.5c0,0-224.949,48-838.42-66c0,0-398.06-104.109-1081.58-101.09v-17.1l1.181-0.33
+		c0,0,796.819-66,1357.819,106C3362.6,1605.591,3602.57,1673.61,3923.6,1664.61z"/>
+	<path fill="#16712B" d="M-76,1716.19l-15,4.21v-4.02C-86.01,1716.321-81.01,1716.261-76,1716.19z"/>
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="2963.6006" y1="4444.8262" x2="2963.6003" y2="1539.6416">
+		<stop  offset="0.1362" style="stop-color:#12491D"/>
+		<stop  offset="0.449" style="stop-color:#134B1E"/>
+		<stop  offset="0.6519" style="stop-color:#16531F"/>
+		<stop  offset="0.8235" style="stop-color:#1B6222"/>
+		<stop  offset="0.9769" style="stop-color:#227825"/>
+		<stop  offset="1" style="stop-color:#237D26"/>
+	</linearGradient>
+	<path fill="url(#SVGID_1_)" d="M3923.6,1716.381v2675.21c-482.96,119.78-834.17,0-834.17,0c-618.06-207.25-1085.83,0-1085.83,0
+		v-2573.95l1.19-249.27c-0.4,0-0.79,0-1.19,0.01v-24.71c94.4-7.99,335.66-12.51,790.42,72
+		C2794.02,1615.671,3210.75,1724.661,3923.6,1716.381z"/>
+	<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="960" y1="6999.3906" x2="959.9999" y2="5684.8105">
+		<stop  offset="0.1362" style="stop-color:#12491D"/>
+		<stop  offset="0.449" style="stop-color:#134B1E"/>
+		<stop  offset="0.6519" style="stop-color:#16531F"/>
+		<stop  offset="0.8235" style="stop-color:#1B6222"/>
+		<stop  offset="0.9769" style="stop-color:#227825"/>
+		<stop  offset="1" style="stop-color:#237D26"/>
+	</linearGradient>
+	<path fill="url(#SVGID_2_)" d="M1919.41,5738.301v1261.09H0.59V5737.911c160.76-39.82,306.891-53.101,430.33-53.101
+		c247.16,0,403.25,53.24,403.25,53.24C1439.529,5941.041,1900.709,5746.391,1919.41,5738.301z"/>
+	<path fill="#16712B" d="M268.951,4157.802"/>
+	<rect x="2003.6" y="1373.721" fill="none" width="1920" height="1697.66"/>
+	<rect x="0.59" y="5684.811" fill="none" width="1918.82" height="1314.58"/>
+</g>
+<g id="South_Publicity">
+	<text transform="matrix(1 0 0 1 1940.5957 -92.7915)" fill="#B3C8DA" font-family="'Cuprum-BoldItalic'" font-size="80">South Publicity</text>
+</g>
+<g id="Header">
+	<path fill="#122C1F" d="M1919.405-303.409v61.61H325.027c-41.998-1.496-93.572,42.788-96.612,85.62
+		c-3.343,47.104-38.19,86.88-85.29,86.88H0.596v-234.11H1919.405z"/>
+</g>
+</svg>
